@@ -6,6 +6,7 @@ class Anagram
     @word = word 
   end 
   
+  
   def match(possible_anagrams)
     word_letters = @word.split(//).sort
     anagrams = []
@@ -21,5 +22,4 @@ class Anagram
     end 
     anagrams 
   end 
-  
 end 
